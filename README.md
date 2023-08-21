@@ -1,4 +1,4 @@
-# Development Client example
+# REACT NATIVE FIREBASE TYPESCRIPT STARTER
 
 <p>
   <!-- iOS -->
@@ -14,6 +14,26 @@ Experiment with Development Client in SDK 40.
 > `npx create-react-native-app my-app -t with-dev-client`
 
 - Run `expo start --dev-client` to try it out.
+- Install Firebase with ```expo install @react-native-firebase/app @react-native-firebase/firestore```
+- Download the google-services.json (Android) and GoogleServices-Info.plist (IOS) from Firebase and put them in the root folder of the project
+- Put these files in .gitignore
+- Check if app.json has the following:
+```sh
+{
+  "expo": {
+    "android": {
+      "googleServicesFile": "./google-services.json"
+    },
+    "ios": {
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "plugins": [
+      "@react-native-firebase/app"
+    ]
+  }
+}
+```
+- Follow [this](https://www.youtube.com/watch?v=LUFHXsBcW6w&t=217s) to build with EAS
 
 ## 🏗 Build with EAS
 
