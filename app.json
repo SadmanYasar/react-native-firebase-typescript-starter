@@ -1,28 +1,31 @@
 {
   "expo": {
-    "name": "firebase-ml-project",
-    "slug": "react-native-firebase-ml-learn",
-    "owner": "sadmansayem",
+    "name": "firebasemlproject",
+    "slug": "firebasemlproject",
+    "scheme": "firebasemlproject",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sadmanyasarsayem.firebasemlproject"
     },
     "android": {
-      "googleServicesFile": "./android/app/google-services.json",
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#FFFFFF"
       },
       "package": "com.sadmanyasarsayem.firebasemlproject"
     },
@@ -34,7 +37,7 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "f655fb76-3d28-4733-94f9-5e265ee2f986"
+        "projectId": "7cae15a7-b49d-40d4-b6d2-5f0cc40a3e81"
       }
     }
   }

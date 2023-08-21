@@ -1,4 +1,4 @@
-package com.firebasemlproject;
+package com.sadmanyasarsayem.firebasemlproject;
 
 import android.app.Application;
 import android.content.res.Configuration;
