@@ -8,10 +8,10 @@ const Button = ({ label, onPress }: any) => (
   </TouchableOpacity>
 );
 
-export default function App() {
+export default function Home() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Text>Open up Home.tsx to start working on your app!</Text>
       <Button
         label="Open Dev Menu"
         onPress={() => {
